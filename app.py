@@ -19,11 +19,17 @@ resume = read_file("my_data/my resume.txt", "Resume")
 articles = read_file("my_data/articles.txt", "Articles")
 case_studies = read_file("my_data/case studies.txt", "Case Studies")
 social_posts = read_file("my_data/social posts.txt", "Social Posts")
-
-full_profile = resume + articles + case_studies + social_posts
+about_me = read_file("my_data/about-me.txt","About Me")
+full_profile = resume + articles + case_studies + about_me
 
 # Page config
-st.set_page_config(page_title="Ask Me About Jo", layout="centered")
+st.set_page_config(
+    page_title="Jo Gruszka – Resume Agent",
+    page_icon="💬",
+    layout="centered",
+    initial_sidebar_state="collapsed"
+)
+
 st.title("👋 Ask Me About Jo")
 st.markdown("Chat with an AI that knows my resume!")
 

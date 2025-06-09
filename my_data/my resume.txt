@@ -1,0 +1,91 @@
+**Jo Gruszka**
+AI-Driven Marketing Operations Leader | Champion of Scalable Automation, Data Strategy & Innovation
+408-499-7975 | [hello@joGruszka.com](mailto:hello@joGruszka.com) | [www.joGruszka.com](http://www.joGruszka.com) | [www.linkedin.com/in/jogruszka](http://www.linkedin.com/in/jogruszka)
+
+---
+
+**SUMMARY**
+Strategic marketing operations executive with 10+ years of leadership experience in B2B marketing operations, including SaaS, advertising, and creative environments. Adept at architecting and scaling marketing ecosystems, managing global tech stacks, leading cross-functional teams, and embedding AI to drive operational excellence and revenue growth. Trusted advisor to C-level executives with a proven track record of improving marketing ROI, aligning operations to business objectives, and building high-performing, innovation-led teams. Passionate about transforming complexity into clarity through data, technology, and scalable systems.
+
+---
+
+**EXPERIENCE**
+
+**Executive Director, Marketing Operations**
+*Hollywood Branded | Redondo Beach, CA | July 2024 – Present*
+
+Reporting directly to the CEO, I led the full strategic and operational transformation of the agency's marketing infrastructure, aligning processes, technology, and data systems to support scalable growth.
+
+* Developed and implemented a comprehensive marketing operations roadmap, uniting creative, performance, and lifecycle strategies under a single, data-driven framework.
+* Oversaw the selection, implementation, and optimization of a fully integrated martech stack including HubSpot, monday.com, Salesforce, ChatGPT, and Fireflies.ai, improving campaign delivery speed by 40%.
+* Evangelized the adoption of generative and agentic AI tools across marketing functions to enhance content workflows, audience targeting, and campaign personalization.
+* Built and maintained real-time dashboards and KPIs to measure campaign impact, inform strategy, and guide executive decisions.
+* Instituted data governance practices that improved data accuracy, reporting integrity, and marketing-to-sales alignment.
+* Managed relationships with technology vendors and collaborated closely with IT to drive integrations and resolve system issues.
+* Mentored and scaled a high-performing team, instilling a culture of innovation, accountability, and AI fluency.
+* Partnered with Finance to develop and manage operational budgets and resource planning, improving cost efficiency by 15%.
+* Served as the operations lead for demand generation, refining lead capture, scoring, and nurturing workflows to drive pipeline growth.
+
+**Marketing Operations Consultant**
+*Mo Jo Gruszka | San Francisco, CA | September 2023 – Present*
+
+Supported B2B clients including Torani, Snowflake, and Aurora Solar in scaling their marketing operations, embedding AI tools, and aligning demand gen with strategic business outcomes.
+
+* Architected lead scoring and nurturing workflows integrated with HubSpot and Salesforce.
+* Built dashboards to monitor pipeline conversion, content engagement, and team productivity.
+* Deployed AI tools (Jasper, Fireflies.ai, Canva AI) to accelerate asset creation and automate feedback loops.
+* Guided change management efforts to upskill teams on AI applications and operational efficiencies.
+
+**Director, Project Management**
+*media.monks | San Francisco, CA | April 2021 – September 2023*
+
+Led global marketing operations for \$85M+ in revenue, managing 20+ project managers and coordinating across marketing, sales, finance, and technology teams.
+
+* Implemented marketing systems architecture using Salesforce, Wrike, and AI dashboards, streamlining campaign planning and delivery.
+* Designed and governed marketing budgets, improving forecasting accuracy and spend efficiency.
+* Standardized lead management practices and reporting metrics across business units.
+
+**Senior Project Manager**
+*Firewood Marketing | San Francisco, CA | November 2019 – April 2021*
+
+Built operational foundations for LinkedIn's marketing and content teams.
+
+* Consolidated martech platforms and workflows to reduce campaign execution time by 30%.
+* Implemented Wrike and Figma automations to scale asset delivery across global campaigns.
+* Collaborated with product marketing and RevOps to align campaign execution to revenue strategy.
+
+---
+
+**EDUCATION & PROFESSIONAL DEVELOPMENT**
+San Francisco State University – B.S. Merchandising and Marketing
+PMP Certification Training – Gold Star Certifications
+The Art of Storytelling – Decker Communications
+
+---
+
+**KEY SKILLS**
+Marketing Operations Leadership | Martech Strategy | Budget & Forecast Management
+AI Integration & Automation | CRM & Lead Lifecycle Optimization | KPI Dashboarding & Analytics
+Cross-Functional Collaboration | Team Enablement | Demand Generation Ops | Data Governance
+
+---
+
+**TECH STACK**
+**Marketing Automation & CRM:** HubSpot, Salesforce, LinkedIn Premium, Drift, Marketo
+**AI & Automation:** ChatGPT, Jasper, Fireflies.ai, MS Copilot, Zapier, Apify, Make (Integromat)
+**Analytics & Reporting:** Looker Studio, Klear, Seamless.ai, Meltwater, Tableau, Coverage Book
+**Project & Workflow Tools:** Monday.com, Wrike, Jira, Asana, Notion
+**Creative Tools:** Canva (Enterprise), Adobe Creative Cloud, Figma, DALL•E, MidJourney
+
+---
+
+**LEADERSHIP & COMMUNITY**
+Mentor – Project Management Institute, Leadership Circle
+Board of Directors, Treasurer – Community Art Foundation
+Big Sister – Big Brothers Big Sisters of America
+Ambassador – Rock’n’Roll Competitor Group
+
+---
+
+**TAGLINE**
+I build scalable marketing systems powered by AI, data, and operational rigor—delivering clarity, speed, and measurable business impact.

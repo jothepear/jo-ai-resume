@@ -19,8 +19,8 @@ resume = read_file("my_data/my resume.txt", "Resume")
 articles = read_file("my_data/articles.txt", "Articles")
 case_studies = read_file("my_data/case studies.txt", "Case Studies")
 social_posts = read_file("my_data/social posts.txt", "Social Posts")
-about_me = read_file("my_data/about-me.txt","About Me")
-full_profile = resume + articles + case_studies + about_me
+about_me = read_file("my_data/about-me.txt", "About Me")
+full_profile = resume + articles + case_studies + about_me + social_posts
 
 # Page config
 st.set_page_config(
@@ -51,23 +51,40 @@ if user_input := st.chat_input("💬 Ask something about Jo..."):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": user_input})
 
-    # Combine system prompt and full chat history
-    full_messages = [{
-        "role": "system",
-        "content": f"You are an assistant answering questions about Jo. The following is Jo’s profile including resume, case studies, articles, and social posts. Use these materials to answer clearly and specifically:\n\n{full_profile}"
-    }] + st.session_state.messages
+    # Expanded off-topic keywords
+    off_topic_keywords = [
+        "write code", "tell me a joke", "how do I", "give me python",
+        "generate code", "solve this", "create a script", "build an app",
+        "run a query", "design a function", "write me a program",
+        "can you code", "generate javascript", "make a website"
+    ]
+    if any(keyword in user_input.lower() for keyword in off_topic_keywords):
+        reply = "I'm here to answer questions specifically about Jo Gruszka. Please ask about her background, skills, or work."
+    else:
+        # Combine system prompt and full chat history
+        full_messages = [{
+            "role": "system",
+            "content": (
+                "You are a professional AI assistant trained specifically to answer questions about Jo Gruszka. "
+                "You must only respond to questions related to Jo's background, resume, skills, work experience, and related topics. "
+                "You must not respond to any questions that are unrelated to Jo, including writing code, general advice, or jokes. "
+                "If the user asks something unrelated to Jo, politely decline."
+                "\n\nJo’s Profile:\n"
+                f"{full_profile}"
+            )
+        }] + st.session_state.messages
 
-    # Call OpenAI and get response
-    response = client.chat.completions.create(
-    model="gpt-3.5-turbo",
-    messages=full_messages,
-    max_tokens=300  # ≈ about 1,200 characters
-)
-    reply = response.choices[0].message.content
+        # Call OpenAI and get response
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=full_messages,
+            max_tokens=300  # ≈ about 1,200 characters
+        )
+        reply = response.choices[0].message.content
 
     # Display assistant reply
     with st.chat_message("assistant"):
-        st.markdown(reply)
+        st.markdown(f"🧠 **AI Agent:**\n\n{reply}")
 
     # Save assistant reply to chat history
     st.session_state.messages.append({"role": "assistant", "content": reply})
